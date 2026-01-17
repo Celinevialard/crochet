@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mes Patterns de Crochet</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            
+            body {
+                color: #221303;
+                background-color: #f5c58f;
+                padding: 20px 50px;
+                font-family: Arial, sans-serif;
+            }
+            
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                background-color: white;
+                padding: 30px;
+                border-radius: 8px;
+            }
+            
+            h1 {
+                text-align: center;
+                font-size: 2.5em;
+                margin-bottom: 30px;
+            }
+            
+            .patterns-list {
+                display: grid;
+                gap: 15px;
+            }
+            
+            .pattern-card {
+                background-color: #e8b87b;
+                padding: 20px;
+                border-radius: 8px;
+                text-decoration: none;
+                color: #221303;
+                transition: background-color 0.3s;
+                border-left: 4px solid #d4a574;
+            }
+            
+            .pattern-card:hover {
+                background-color: #d9a46d;
+            }
+            
+            .pattern-card h2 {
+                margin: 0 0 10px 0;
+                font-size: 1.5em;
+            }
+            
+            .pattern-card p {
+                margin: 5px 0;
+                opacity: 0.9;
+            }
+            
+            .pattern-icon {
+                font-size: 1.5em;
+                margin-right: 10px;
+            }
+            
+            .readme-link {
+                display: inline-block;
+                margin-bottom: 20px;
+                padding: 10px 15px;
+                background-color: #d4a574;
+                color: #221303;
+                text-decoration: none;
+                border-radius: 4px;
+                font-weight: bold;
+                transition: background-color 0.3s;
+            }
+            
+            .readme-link:hover {
+                background-color: #c59566;
+            }
+            
+            @media screen and (min-width: 1080px) {
+                body {
+                    padding: 20px 10%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>📚 Mes Patterns de Crochet</h1>            
+            <div class="patterns-list">
+                <a href="chatMocci.html" class="pattern-card">
+                    <h2><span class="pattern-icon">🐱</span>Chat Mocci</h2>
+                    <p>Pattern pour créer un petit chat en crochet</p>
+                </a>
+                <a href="poulpe_2_visages.html" class="pattern-card">
+                    <h2><span class="pattern-icon">🐙</span>Poulpe à 2 Visages</h2>
+                    <p>Pattern pour créer un poulpe avec deux visages</p>
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

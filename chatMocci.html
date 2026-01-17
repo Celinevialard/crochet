@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Patterns de Crochet</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            
+            body {
+                color: #221303;
+                background-color: #f5c58f;
+                padding: 20px 50px;
+                font-family: Arial, sans-serif;
+            }
+            
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                background-color: white;
+                padding: 30px;
+                border-radius: 8px;
+            }
+            
+            h1 {
+                text-align: center;
+                font-size: 2.5em;
+                margin-bottom: 10px;
+            }
+            
+            .pattern-header {
+                background-color: #e8b87b;
+                padding: 15px;
+                border-radius: 8px;
+                margin-bottom: 20px;
+            }
+            
+            .pattern-info {
+                margin-bottom: 10px;
+            }
+            
+            .pattern-info label {
+                font-weight: bold;
+                color: #221303;
+            }
+            
+            .pattern-info p {
+                margin: 5px 0 0 0;
+                padding: 0 0 0 20px;
+            }
+            
+            h2 {
+                margin-top: 30px;
+                margin-bottom: 15px;
+                border-bottom: 2px solid #d4a574;
+                padding-bottom: 10px;
+            }
+            
+            .pattern-lines {
+                background-color: #faf4f0;
+                padding: 20px;
+                border-radius: 8px;
+            }
+            
+            .pattern-line {
+                margin-bottom: 15px;
+                padding-bottom: 15px;
+                border-bottom: 1px solid #d4a574;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: flex-start;
+                gap: 10px;
+            }
+            
+            .pattern-line:last-child {
+                border-bottom: none;
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
+            
+            .line-number {
+                font-weight: bold;
+                color: #a67c52;
+                display: inline-block;
+                min-width: 60px;
+                flex-shrink: 0;
+            }
+            
+            .line-text {
+                flex: 1 1 100%;
+                min-width: 0;
+                display: block;
+                padding-left: 60px;
+                margin-top: -5px;
+            }
+            
+            .line-text:first-of-type {
+                margin-top: 0;
+                padding-left: 0;
+            }
+            
+            .line-info {
+                display: block;
+                margin-top: 10px;
+                padding-left: 20px;
+                font-style: italic;
+                color: #a67c52;
+                font-size: 0.95em;
+                border-left: 3px solid #d4a574;
+                padding-left: 12px;
+            }
+            
+            .back-link {
+                display: inline-block;
+                margin-bottom: 20px;
+                color: #a67c52;
+                text-decoration: none;
+                font-weight: bold;
+                transition: color 0.3s;
+            }
+            
+            .back-link:hover {
+                color: #221303;
+            }
+            
+            @media screen and (min-width: 1080px) {
+                body {
+                    padding: 20px 10%;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <a href="index.html" class="back-link">← Retour à l'accueil</a>
+            <h1>🐱 Chat Mocci</h1>
+            
+            <div class="pattern-header">
+               
+                <div class="pattern-info">
+                    <label>Auteur:</label>
+                    <p>-</p>
+                </div>
+                
+                <div class="pattern-info">
+                    <label>Notes générales:</label>
+                    <p>s = maille simple, aug = augmentation, dim = diminution</p>
+                </div>
+            </div>
+            
+            <h2>Étapes du pattern:</h2>
+            
+            <div class="pattern-lines">
+                <div class="pattern-line">
+                    <span class="line-number">Ligne 1:</span>
+                    <span class="line-text">6 mailles dans un cercle magique</span>
+                </div>
+                <div class="pattern-line">
+                    <span class="line-number">Ligne 2:</span>
+                    <span class="line-text">6 augmentation (12 mailles)</span>
+                </div>
+                <div class="pattern-line">
+                    <span class="line-number">Ligne 3:</span>
+                    <span class="line-text">6 x 1s + aug (18 mailles)</span>
+                </div>
+                <div class="pattern-line">
+                    <span class="line-number">Ligne 4:</span>
+                    <span class="line-text">6 x 1s + aug + 1s (24 mailles)</span>
+                </div>
+                <div class="pattern-line">
+                    <span class="line-number">Ligne 5:</span>
+                    <span class="line-text">6 x 3s + aug (30 mailles)</span>
+                </div>
+                <div class="pattern-line">
+                    <span class="line-number">Ligne 6-9:</span>
+                    <span class="line-text">4 x 30 mailles </span>
+                </div>
+                <div class="pattern-line">
+                    <span class="line-number">Ligne 10:</span>
+                    <span class="line-text">6 x 3s + dim (24 mailles)</span>
+                </div>
+                <div class="pattern-line">
+                    <span class="line-number">Ligne 11:</span>
+                    <span class="line-text">Queue : 7maille en chaine, double la première puis dans chaque maille</span>
+                    <span class="line-text">dim, 2s,BO,dim,s,dim,Bo,s,dim,s,BO,dim,s,dim,BO,2s (18 mailles)</span>
+                    <span class="line-info">BO: dans 1 maille double 5x -> une patte</span>
+                </div>
+                <div class="pattern-line">
+                    <span class="line-number">Ligne 12:</span>
+                    <span class="line-text">6 x 1s + dim (12 mailles)</span>
+                    <span class="line-text">Rembourer</span>
+                </div>
+                <div class="pattern-line">
+                    <span class="line-number">Ligne 13:</span>
+                    <span class="line-text">6dim (6 mailles)</span>
+                    <span class="line-text">Refermer</span>
+                </div>
+                <div class="pattern-line">
+                    <span class="line-number">Oreilles:</span>
+                    <span class="line-text">chaine de 3</span>
+                    <span class="line-text">double la 2ème maille -> passer dans les 3</span>
+                    <span class="line-text">double la 1er maille -> passer dans 2 puis repasser dans 2</span>
+                    <span class="line-text">fermer en directe</span>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
