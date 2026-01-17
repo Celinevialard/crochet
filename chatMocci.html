@@ -12,7 +12,7 @@
             body {
                 color: #221303;
                 background-color: #f5c58f;
-                padding: 20px 50px;
+                padding: 10px 15px;
                 font-family: Arial, sans-serif;
             }
             
@@ -20,13 +20,13 @@
                 max-width: 800px;
                 margin: 0 auto;
                 background-color: white;
-                padding: 30px;
+                padding: 15px;
                 border-radius: 8px;
             }
             
             h1 {
                 text-align: center;
-                font-size: 2.5em;
+                font-size: 1.8em;
                 margin-bottom: 10px;
             }
             
@@ -125,6 +125,20 @@
                 color: #221303;
             }
             
+            @media screen and (min-width: 768px) {
+                body {
+                    padding: 20px 40px;
+                }
+                
+                .container {
+                    padding: 30px;
+                }
+                
+                h1 {
+                    font-size: 2.5em;
+                }
+            }
+            
             @media screen and (min-width: 1080px) {
                 body {
                     padding: 20px 10%;
@@ -184,7 +198,7 @@
                 <div class="pattern-line">
                     <span class="line-number">Ligne 11:</span>
                     <span class="line-text">Queue : 7maille en chaine, double la première puis dans chaque maille</span>
-                    <span class="line-text">dim, 2s,BO,dim,s,dim,Bo,s,dim,s,BO,dim,s,dim,BO,2s (18 mailles)</span>
+                    <span class="line-text">dim, 2s, BO, dim, s, dim, Bo, s, dim, s, BO, dim, s, dim, BO, 2s (18 mailles)</span>
                     <span class="line-info">BO: dans 1 maille double 5x -> une patte</span>
                 </div>
                 <div class="pattern-line">
