@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Patterns de Crochet</title>
+        <link rel="stylesheet" href="style.css">
         <style>
             * {
                 box-sizing: border-box;
@@ -100,6 +101,17 @@
                 margin-top: 0;
                 padding-left: 0;
             }
+
+            .line-info {
+                display: block;
+                margin-top: 10px;
+                padding-left: 20px;
+                font-style: italic;
+                color: #a67c52;
+                font-size: 0.95em;
+                border-left: 3px solid #d4a574;
+                padding-left: 12px;
+            }
             
             .back-link {
                 display: inline-block;
@@ -159,9 +171,11 @@
                     <span class="line-number">Ligne 1:</span>
                     <span class="line-text">Description de la première étape</span>
                 </div>
-                <div class="pattern-line">
+                <div class="pattern-line print-stack">
                     <span class="line-number">Ligne 2:</span>
                     <span class="line-text">Description de la deuxième étape</span>
+                    <span class="line-text">Description complémentaire de la deuxième étape</span>
+                    <span class="line-info">Info supplémentaire à afficher sous l’étape</span>
                 </div>
             </div>
         </div>
